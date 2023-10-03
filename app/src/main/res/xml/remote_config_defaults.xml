@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<defaults>
+    <entry>
+        <key>inter_micro_remote_config</key>
+        <value>true</value>
+    </entry>
+    <entry>
+        <key>banner_ads_remote_config</key>
+        <value>True_collapsible</value>
+    </entry>
+    <entry>
+        <key>inter_translation_remote_config</key>
+        <value>false</value>
+    </entry>
+    <entry>
+        <key>translator_remote_config</key>
+        <value>
+            {"exit_app":{"1stExitApp":true,"2ndExitApp":false,"3rdExitApp":true,"4thExitApp":true,"5thExitApp":true,"6thExitApp":true,"7thExitApp":true,"8thExitApp":true,"9thExitApp":true,"10thExitApp":true},"translate":{"1stTranslate":false,"3rdTranslate":true,"7thTranslate":true}}
+        </value>
+    </entry>
+</defaults>

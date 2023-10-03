@@ -1,0 +1,113 @@
+<resources>
+    <string name="app_name">JUN88</string>
+    <string name="package_name" translatable="false">com.dichthuatjun88binh.jun88.phototranslator.translation</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="translator">Translator</string>
+    <string name="translation">Translation</string>
+    <string name="translating">Translating...</string>
+    <string name="one_world_one_conversation">One World One Conversation</string>
+    <string name="internet_message_error">Internet Connection is Required to Perform Translation</string>
+    <string name="input_message_empty">Write Some Text</string>
+    <string name="nothing_to_share">Nothing to share</string>
+    <string name="nothing_to_copy">Nothing to Copy</string>
+    <string name="nothing_to_paste">Nothing to paste</string>
+    <string name="nothing_to_speak">Nothing to Speak</string>
+    <string name="nothing_to_delete">Nothing to Delete</string>
+    <string name="text_copied_to_clipboard">Text Copied to clipboard</string>
+    <string name="text_pasted_from_clipboard">Text Pasted from Clipboard</string>
+    <string name="text_deleted">Text Deleted</string>
+    <string name="translation_item_successfully_deleted">Translation item successfully deleted</string>
+    <string name="text_to_speech_feature_is_not_available_in_target_language">Text to speech feature is not available in target language</string>
+    <string name="speech_to_text_feature_is_not_available_in_selected_language">Speech to text feature is not available in selected language</string>
+    <string name="this_feature_is_not_available_in_selected_language">This feature is not available in selected language</string>
+    <string name="something_went_wrong">Something went wrong</string>
+    <string name="could_not_catch_text">Could not catch text!</string>
+    <string name="no_camera_permission">Allow access to Camera permission missing</string>
+    <string name="input_text">Input text</string>
+    <string name="speak_to_translate">Speak to translate</string>
+    <string name="search">Search</string>
+    <string name="home">Home</string>
+    <string name="text">Text</string>
+    <string name="voice">Voice</string>
+    <string name="speak">Speak</string>
+    <string name="camera">Camera</string>
+    <string name="history">History</string>
+    <string name="cancel">Cancel</string>
+    <string name="paste">Paste</string>
+    <string name="delete">Delete</string>
+    <string name="copy">Copy</string>
+    <string name="share">Share</string>
+    <string name="ok">OK</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="no_translation_history">No Translation History</string>
+    <string name="detail_translation">Detail Translation</string>
+    <string name="are_you_sure_you_want_to_clear_history">Are you sure you want to clear History?</string>
+    <string name="recently_use">Recently Use</string>
+    <string name="all_languages">All Languages</string>
+    <string name="start_typing_in">Start typing in %1$s</string>
+    <string name="let_is_say_something">Let\'s say something</string>
+    <string name="speak_now">Speak now</string>
+    <string name="new_scan">New Scan</string>
+    <string name="landscape_screen_not_supported">Landscape screen not supported</string>
+    <string name="enjoying_translation">Enjoying Translation?</string>
+    <string name="tap_a_star_to_rate_it_on_the_store">Tap a star to rate it on the Store.</string>
+    <string name="not_now">Not now</string>
+    <string name="confirm">Confirm</string>
+    <string name="choose_one">Choose One</string>
+    <string name="choose_language">Choose Language</string>
+    <string name="get_started">Get Started</string>
+    <string name="settings">Settings</string>
+    <string name="save">Save</string>
+    <string name="language">Language</string>
+    <string name="delete_history">Delete History</string>
+    <string name="loading_ads">Loading Ads…</string>
+    <string name="there_are_no_email_clients_installed">There are no email clients installed</string>
+    <string name="draw_other_app_permission_denied">Draw over other app permission not available</string>
+    <string name="permit_drawing_over_other_apps">Permit drawing over other apps</string>
+    <string name="allow_translator_ball_drawing_over_other_apps">Allow translator ball drawing over other apps</string>
+    <string name="accessibility">Accessibility</string>
+    <string name="allow_read_and_translate_contents_on_the_screen">Allow read and translate contents on the screen</string>
+    <string name="set_permissions">Set permissions</string>
+    <string name="accessibility_service_description">Enable this service so that Language translator can read the application and translate the content on the screen</string>
+    <string name="accessibility_usage">Accessibility usage</string>
+    <string name="accessibility_description_dialog">This app uses accessibility capabilities for reading the application and translate the content on the screen. \nThe app does not collect any kind of information and does not send any kind of information, using anything that you allow it to do. \nWould you like proceed?</string>
+    <string name="toast_accessibility_service">Find Language translator settings page and enable it with Accessibility service</string>
+    <string name="easy_communication">Easy communication</string>
+    <string name="welcome_description">Except for text, audio, image translation,\n we also supports real-time chat translation</string>
+    <string name="let_us_start">Let\'s start</string>
+    <string name="intro" translatable="false">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu </string>
+
+    <!--untranslatable-->
+    <string name="language_english" translatable="false">English</string>
+    <string name="language_hindi" translatable="false">हिंदी</string>
+    <string name="language_japanese" translatable="false">日本の</string>
+    <string name="language_indonesia" translatable="false">Bahasa Indonesia</string>
+
+    <string-array name="language_names">
+        <item>@string/language_english</item>
+        <item>@string/language_hindi</item>
+        <item>@string/language_japanese</item>
+        <item>@string/language_indonesia</item>
+    </string-array>
+
+    <string name="language_english_code" translatable="false">en</string>
+    <string name="language_hindi_code" translatable="false">hi</string>
+    <string name="language_japanese_code" translatable="false">ja</string>
+    <string name="language_indonesia_code" translatable="false">in</string>
+
+    <string-array name="language_codes">
+        <item>@string/language_english_code</item>
+        <item>@string/language_hindi_code</item>
+        <item>@string/language_japanese_code</item>
+        <item>@string/language_indonesia_code</item>
+    </string-array>
+
+    <integer-array name="language_res">
+        <item>@drawable/flag_en</item>
+        <item>@drawable/flag_hi</item>
+        <item>@drawable/flag_ja</item>
+        <item>@drawable/flag_id</item>
+    </integer-array>
+</resources>

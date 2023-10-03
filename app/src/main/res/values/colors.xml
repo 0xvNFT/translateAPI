@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimaryNew">#1C2D6B</color>
+    <color name="colorP">#3D6058</color>
+
+    <color name="colorSecondary">#3B675D</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#556BBE</color>
+    <color name="colorAccentAlpha">#446B5DD3</color>
+    <color name="imageColor">#61677E</color>
+    <color name="main_bg">#1C2D6B</color>
+    <color name="white">#FFF</color>
+    <color name="whiteAlpha">#44FFFFFF</color>
+    <color name="whiteAlpha77">#88FFFFFF</color>
+    <color name="blueBlackDark">#11112A</color>
+    <color name="primaryGradientTopLeft">#556BBE</color>
+    <color name="primaryGradientBottomRight">#1C2D6B</color>
+    <color name="hintTextColor">#C6C6C6</color>
+    <color name="orangeColor">#F24E1E</color>
+    <color name="pinkColor">#E3E1FF</color>
+    <color name="bgBlue">#DBE3FF</color>
+    <color name="bgBluePressed">#E5DDFF</color>
+    <color name="bgGrayPressed">#33000000</color>
+    <color name="bgTextSource">#F1F0FF</color>
+    <color name="colorStarDefault">#E5E5E5</color>
+    <color name="colorStar">#F9DB22</color>
+
+    <color name="colorAds">#6ea1fc</color>
+    <color name="colorBgAds">#FAFBFF</color>
+    <color name="colorGrayAds">#fff8f8f8</color>
+    <color name="stockeCard">#58595A</color>
+    <color name="lightTransparent">#16000000</color>
+    <color name="bgAlphaAccent">#556BBE</color>
+    <color name="lineDivider">@color/colorAccentAlpha</color>
+    <color name="bluedark">#1C2D6B</color>
+    <color name="bluelight">#556BBE</color>
+
+</resources>

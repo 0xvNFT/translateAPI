@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/home_main"
+        android:icon="@drawable/ic_home"
+        android:title="home"
+        app:cnb_backgroundColor="@color/bluelight"
+        app:cnb_iconColor="@color/orangeColor"
+        app:cnb_textColor="@color/orangeColor" />
+
+    <item
+        android:id="@+id/text_home"
+        android:icon="@drawable/ic_home_s"
+        android:title="văn bản"
+        app:cnb_backgroundColor="@color/bluelight"
+        app:cnb_iconColor="@color/orangeColor"
+        app:cnb_textColor="@color/orangeColor" />
+
+    <item
+        android:id="@+id/history"
+        android:icon="@drawable/ic_history_s"
+        android:title="Lịch Sử"
+        app:cnb_backgroundColor="@color/colorAccent"
+        app:cnb_iconColor="@color/orangeColor"
+        app:cnb_textColor="@color/orangeColor" />
+
+    <item
+        android:id="@+id/voice"
+        android:icon="@drawable/ic_voice"
+        android:title="Ghi Âm"
+        app:cnb_backgroundColor="@color/colorAccent"
+        app:cnb_iconColor="@color/orangeColor"
+        app:cnb_textColor="@color/orangeColor" />
+
+    <item
+        android:id="@+id/camera"
+        android:icon="@drawable/img"
+        android:title="Camera"
+        app:cnb_backgroundColor="@color/colorAccent"
+        app:cnb_iconColor="@color/orangeColor"
+        app:cnb_textColor="@color/orangeColor" />
+    <item
+        android:id="@+id/info"
+        android:icon="@drawable/baseline_info_24"
+        android:title="giới thiệu"
+        app:cnb_backgroundColor="@color/bluelight"
+        app:cnb_iconColor="@color/orangeColor"
+        app:cnb_textColor="@color/orangeColor" />
+
+</menu>

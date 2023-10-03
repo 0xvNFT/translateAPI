@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/rootLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/screenshot"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:scaleType="centerCrop" />
+
+    <com.dichthuatjun88binh.jun88.orc_reader_main.GraphicOverlay
+        android:id="@+id/graphicOverlay"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true" />
+
+    <ProgressBar
+        android:id="@+id/progress_circular"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="80dp"
+        android:background="@drawable/bg_white_circle"
+        android:padding="20dp"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/btnCancel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/progress_circular"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:background="@color/main_bg"
+        android:text="@string/cancel"
+        android:textAllCaps="false"
+        android:visibility="gone" />
+
+    <LinearLayout
+        android:id="@+id/buttonLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="50dp"
+        android:gravity="center_vertical">
+
+        <ImageButton
+            android:id="@+id/close_screenshot"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentEnd="true"
+            android:layout_margin="6dp"
+            android:background="@drawable/circle_alpha_accent"
+            android:padding="10dp"
+            android:src="@drawable/ic_close_white_24dp"
+            android:visibility="visible" />
+
+        <TextView
+            android:id="@+id/tvLanguageSource"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/radius_alpha_accent"
+            android:ellipsize="end"
+            android:lines="1"
+            android:padding="10dp"
+            android:textColor="@android:color/white" />
+
+        <TextView
+            android:id="@+id/tvLanguageTarget"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/radius_alpha_accent"
+            android:ellipsize="end"
+            android:lines="1"
+            android:padding="10dp"
+            android:textColor="@android:color/white" />
+
+        <ImageButton
+            android:id="@+id/btnOpenApp"
+            android:layout_width="60dp"
+            android:layout_height="50dp"
+            android:layout_margin="6dp"
+            android:background="@color/bgAlphaAccent"
+            android:src="@drawable/ic_arrow_outward_24"
+            app:tint="@android:color/white" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/selectLanguageLayout"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:layout_alignParentBottom="true"
+        android:background="@android:color/white"
+        android:visibility="gone">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/languageRecycleView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:nestedScrollingEnabled="false" />
+    </RelativeLayout>
+</RelativeLayout>
